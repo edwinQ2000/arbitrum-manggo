@@ -1,0 +1,34 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background-color:beige;
+  }
+  .two {
+    grid-column: 1 /2;
+    grid-row:2/7;
+    background-color: bisque;
+  }
+  .three {
+    grid-column: 2/3;
+    grid-row: 2 /7;
+    background-color: azure;
+  }
+  .btn{
+    float: right;
+border: solid;
+background: white;
+top: -20px;
+
+position: relative;
+
+width: 130px;
+height: 60px;
+  }
+  
+  
